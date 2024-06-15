@@ -25,6 +25,12 @@ function Gameboard() {
 
     function updateBoard(player, x, y) {
         gameboard[x][y] = player.marker;
+        if (checkWin(player)) {
+            console.log(player.name + ' wins!');
+        }
+        else {
+            console.log('No winner yet');
+        }
     }
 
     function checkWin(player) {
@@ -52,3 +58,4 @@ function Gameboard() {
         return false;
     }
 }
+
