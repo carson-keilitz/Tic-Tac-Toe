@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>  
+    <title>Tic-Tac-Toe</title>  
     <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -11,25 +11,26 @@
 </head>
 <body>
     <main class="game">
+        <dialog class="winner"></dialog>
         <div class="container">
             <div class="game-board">
-                <div class"game-board-position" id="0"></div>
-                <div class"game-board-position" id="1"></div>
-                <div class"game-board-position" id="2"></div>
-                <div class"game-board-position" id="3"></div>
-                <div class"game-board-position" id="4"></div>
-                <div class"game-board-position" id="5"></div>
-                <div class"game-board-position" id="6"></div>
-                <div class"game-board-position" id="7"></div>
-                <div class"game-board-position" id="8"></div>
+                <button class="game-board-position" id="0"></button>
+                <button class="game-board-position" id="1"></button>
+                <button class="game-board-position" id="2"></button>
+                <button class="game-board-position" id="3"></button>
+                <button class="game-board-position" id="4"></button>
+                <button class="game-board-position" id="5"></button>
+                <button class="game-board-position" id="6"></button>
+                <button class="game-board-position" id="7"></button>
+                <button class="game-board-position" id="8"></button>
             </div>
             <div class="player-buttons">
-                <button class="choose-player-button"><svg width="86" height="57" viewBox="0 0 86 57" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <button class="choose-player-button" id="X"><svg width="86" height="57" viewBox="0 0 86 57" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M42.9687 28.5617L56.7572 14.7741C57.2467 14.2845 57.2467 13.4922 56.7572 13.0027L54.122 10.3666C53.8873 10.1321 53.5688 10 53.2364 10C52.9039 10 52.5854 10.1321 52.3507 10.3666L38.5622 24.1552L24.7737 10.3666C24.539 10.1321 24.2205 10 23.888 10C23.5556 10 23.237 10.1321 23.0024 10.3666L20.3672 13.0027C19.8776 13.4922 19.8776 14.2845 20.3672 14.7741L34.1557 28.5618L20.3686 42.3478C19.8792 42.8374 19.8792 43.6297 20.3686 44.1192L23.0039 46.7553C23.2385 46.9899 23.557 47.1219 23.8895 47.1219C24.2221 47.1219 24.5405 46.9899 24.7753 46.7553L38.5621 32.9683L52.349 46.7553C52.5837 46.9899 52.9022 47.1219 53.2347 47.1219C53.5673 47.1219 53.8858 46.9899 54.1203 46.7553L56.7556 44.1192C57.245 43.6297 57.245 42.8374 56.7556 42.3478L42.9687 28.5617Z" fill="#A5A5A5" stroke="#A5A5A5" stroke-width="0.00156251"/>
                     </svg>
                     
                     </button>
-                <button class="choose-player-button"><svg width="43" height="43" viewBox="0 0 43 43" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <button class="choose-player-button" id="O"><svg width="43" height="43" viewBox="0 0 43 43" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <circle cx="21.5" cy="21.5" r="21.5" fill="#A5A5A5"/>
                     <circle cx="21.5" cy="21.5" r="15.7848" fill="#EDD7AC"/>
                     </svg>
@@ -41,4 +42,5 @@
         </footer>
     </main>
 </body>
+<script src="script.js"></script>
 </html>

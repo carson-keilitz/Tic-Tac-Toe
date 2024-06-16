@@ -51,7 +51,7 @@ body {
     /* center */
 }
 
-.game-board div {
+.game-board button {
     /* max-width: 200px;
     max-height: 200px; */
     background: #EDD7AC;
