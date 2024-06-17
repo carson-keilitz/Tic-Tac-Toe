@@ -16,6 +16,5 @@ This is a simple implementation of the classic Tic-tac-toe game in Javacript.
   <li>Play on https://carson-keilitz.github.io/Tic-Tac-Toe/.</li>
   <li>Follow the on-screen instructions to make your moves.</li>
 </ul>
-Follow the on-screen instructions to make your moves.
 Enjoy playing Tic-tac-toe!
 
